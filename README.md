@@ -2,6 +2,10 @@
 
 This is a Python-based Sudoku game solver and generator. Check out [wikipedia's Sudoku page](https://en.wikipedia.org/wiki/Sudoku) if you are unfamiliar with the game.
 
+* [Command-line Example](#command-line-example)
+* [Python API Example](#python-api-example)
+* [Tests](#tests)
+
 ## Command-line Example
 
 Boards can be solved by passing them in one line at time as shown below (python 3.8+ is required). 
@@ -37,4 +41,10 @@ solution =  solve([
 
 If formatting to match the CLI example is desired, see the `read` and `write` methods in [sudoku/solve.py](sudoku/solve.py).
 
+## Tests
 
+Unit tests exist to verify that the solver works on some known puzzles. 
+
+```
+python -m unittest tests.solve_tests
+```

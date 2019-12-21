@@ -1,4 +1,4 @@
-# Sudoku solver and generator
+# Sudoku Solver
 
 This is a Python-based Sudoku game solver and generator. Check out [wikipedia's Sudoku page](https://en.wikipedia.org/wiki/Sudoku) if you are unfamiliar with the game.
 
